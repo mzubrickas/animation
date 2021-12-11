@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Padauk:wght@400;700&display=swap');
+
+body {
+  background: LightSalmon;
+}
+
+h1 {
+  text-align: center;
+  font-family: Padauk;
+}
+
+h2 {
+  text-align: center;
+  color: SkyBlue;
+  margin-top: 2px;
+  font-family: Padauk;
+  font-size: 28px;
+  transition: 3s;
+}
+/* Snowman begining */
+.snowball {
+  width: 40px;
+  height: 40px;
+  background: Snow;
+  border-radius: 100px;
+  margin-left: 100px;
+  border: 1px solid black;
+  transition: 3s;
+}
+
+.winter {
+  width: 250px;
+  margin: 0 auto;
+  background: SkyBlue;
+  padding: 40px;
+  border-radius: 10px;
+  border: 10px dotted Snow;
+}
+
+.winter:hover .ballone {
+  transform: scale(2.5);
+  transition: 5s;
+}
+
+.winter:hover .balltwo {
+  transform: scale(1.9);
+  transition: 3.5s;
+}
+
+.winter:hover .ballthree  {
+  transform: scale(1.3);
+  transition: 2.5s;
+}
+
+.winter:hover .eyes {
+  background: black;
+  border: 1px solid Snow;
+  transition-delay: 0.8s;
+}
+
+.winter:hover .handone {
+  background: black;
+  transition-delay: 1.5s;
+}
+
+.winter:hover .handtwo {
+  background: black;
+  transition-delay: 1.9s;
+}
+
+.winter:hover h2 {
+  color: Snow;
+  transition-delay: 2.6s;
+}
+
+.eyes {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: Snow;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 7px;
+  border: 1px solid Snow;
+  transition: 2.5s;
+}
+
+.handone {
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  margin-left: 38px;
+  background: SkyBlue;
+  transform: rotate(20deg);
+  transition: 2.5s;
+}
+
+.handtwo {
+  width: 20px;
+  height: 1px;
+  margin-top: -3px;
+  margin-left: -19px;
+  background: SkyBlue;
+  transform: rotate(-20deg);
+  transition: 2.5s;
+}
+
+/* Snowman ending*/
+
+
+/* Doggy begining*/
+.way {
+  width: 300px;
+  height: 35px;
+  background: lightgreen;
+  padding: 30px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin: 0 auto;
+}
+
+.dogone {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  background: black;
+  margin-left: -30px;
+  animation: move 3s steps(400) infinite;
+}
+
+.headone {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 11px;
+  border-top-left-radius: 10px;
+  background: black;
+  margin-left: -10px;
+  animation: move 3s steps(400) infinite;
+}
+
+.ears {
+  position: relative;
+  width: 15px;
+  height: 8px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 43px;
+  border-bottom-left-radius: 34px;
+  border-bottom-right-radius: 10px;
+  background: black;
+  margin-left: -17px;
+  bottom: 45px;
+  animation: move 3s steps(400) infinite;
+}
+
+.circle {
+  position: relative;
+  width: 2px;
+  height: 2px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: black;
+  margin-left: -3px;
+  bottom: 45px;
+  animation: move 3s steps(400) infinite;
+}
+
+.tail {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 6px;
+  border: 1 solid black;
+  background: black;
+  margin-left: -38px;
+  bottom: 42px;
+  animation: move 3s steps(400) infinite;
+}
+
+.nose {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 6px;
+  background: black;
+  margin-left: 14px;
+  bottom: 62px;
+  animation: move 3s steps(400) infinite;
+}
+
+.mouth {
+  position: relative;
+  width: 5px;
+  height: 4px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 11px;
+  background: pink;
+  border: 1 solid black;
+  margin-left: 15px;
+  bottom: 55px;
+  animation: move 3s steps(400) infinite;
+}
+
+.leg1 {
+  position: relative;
+  width: 6px;
+  height: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 3px;
+  background: black;
+  margin-left: 4px;
+  bottom: -15px;
+  animation: legmove1 1s steps(400) infinite;
+}
+
+.leg2 {
+  position: relative;
+  width: 6px;
+  height: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 3px;
+  background: black;
+  margin-left: 17px;
+  bottom: -5px;
+  animation: legmove2 1s steps(400) infinite;
+}
+
+.portalone {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: 3px solid lightgreen;
+  background: lightgreen;
+  margin-left: 253px;
+  bottom: 90px;
+}
+
+.portaltwo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border: 3px solid lightgreen;
+  background: lightgreen;
+  margin-left: -12px;
+  bottom: 154px;
+}
+
+@keyframes move {
+  from {left: 25px;}
+  to   {left: 298px;}
+}
+
+@keyframes legmove1 {
+  0%   {transform: rotate(0deg)}
+  25%  {transform: rotate(40deg);}
+  50%  {transform: rotate(0deg);}
+  75%  {transform: rotate(40deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes legmove2 {
+  0%   {transform: rotate(40deg)}
+  25%  {transform: rotate(0deg);}
+  50%  {transform: rotate(40deg);}
+  75%  {transform: rotate(0deg);}
+  100% {transform: rotate(40deg);}
+}
+/* Doggy ending*/
